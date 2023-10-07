@@ -33,7 +33,7 @@ function StopWatch() {
       );
     }
 
-    return <button onClick={() => setEndTime(null)}>Resume</button>;
+    return <button disabled onClick={() => setEndTime(null)}>Resume (TODO: impl)</button>;
 
     // throw if startTime == null && endTime != null
     // source: trust me bro
